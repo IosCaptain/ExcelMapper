@@ -1,4 +1,4 @@
-Excel Mapper to DBs leveraging Apache POI. 
+Excel Mapper Class to DBs leveraging Apache POI. 
 
 1. In the main method we pass the file location to create a FileStream and the excel workbook from there. We then get the row and column count to use
 in the loops. The first loop is for rows and the second one for the number of the cell in that row, aka, column.
