@@ -1,11 +1,11 @@
-package com.cvshealth.red.redemapi.utils;
+package com.utils;
 
-import com.cvshealth.red.redemapi.model.MailContactEntity;
-import com.cvshealth.red.redemapi.model.ErrorEntity;
-import com.cvshealth.red.redemapi.model.SMSEntity;
-import com.cvshealth.red.redemapi.repository.MailContactRepository;
-import com.cvshealth.red.redemapi.repository.ErrorRepository;
-import com.cvshealth.red.redemapi.repository.SMSsRepository;
+import com.model.MailContactEntity;
+import com.model.ErrorEntity;
+import com.model.SMSEntity;
+import com.repository.MailContactRepository;
+import com.repository.ErrorRepository;
+import com.repository.SMSsRepository;
 import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
